@@ -1,6 +1,3 @@
-// ignore: avoid_web_libraries_in_flutter
-//import 'dart:html' as html;
-
 import 'package:flutter/material.dart';
 import 'package:webappp/responsive_widget.dart';
 
@@ -10,21 +7,15 @@ class ProfilePage extends StatelessWidget {
   List<Widget> navButtons() => [
         NavButton(
           text: "about",
-          onPressed: () {
-            //html.window.open("https://pawan.live", "Pk");
-          },
+          onPressed: () {},
         ),
         NavButton(
           text: "work",
-          onPressed: () {
-            //html.window.open("https://pawan.live", "Pk");
-          },
+          onPressed: () {},
         ),
         NavButton(
           text: "contact",
-          onPressed: () {
-            //html.window.open("https://pawan.live", "Pk");
-          },
+          onPressed: () {},
         ),
       ];
 
@@ -165,7 +156,7 @@ class ProfileInfo extends StatelessWidget {
 //            borderRadius: BorderRadius.circular(40),
           shape: BoxShape.circle,
           image: DecorationImage(
-            image: AssetImage("Vicky.JPG"),
+            image: AssetImage("Vicky.jpg"),
             alignment: Alignment.center,
             fit: BoxFit.cover,
           ),
@@ -210,11 +201,7 @@ class ProfileInfo extends StatelessWidget {
             shape: StadiumBorder(),
             child: Text("Resume"),
             color: Colors.red,
-            onPressed: () {
-              //html.window.open(
-              //  "https://google-developers.appspot.com/community/experts/directory/profile/profile-pawan_kumar",
-              // "GDE");
-            },
+            onPressed: () {},
             padding: EdgeInsets.all(10),
           ),
           SizedBox(
@@ -227,9 +214,7 @@ class ProfileInfo extends StatelessWidget {
             shape: StadiumBorder(),
             child: Text("Say Hi!"),
             color: Colors.red,
-            onPressed: () {
-              // html.window.open("https://pawan.live", "Pk");
-            },
+            onPressed: () {},
             padding: EdgeInsets.all(10),
           )
         ],
@@ -265,23 +250,17 @@ class SocialInfo extends StatelessWidget {
     return [
       NavButton(
         text: "Github",
-        onPressed: () {
-          //html.window.open("https://github.com/vickysingh07", "Git");
-        },
+        onPressed: () {},
         color: Colors.blue,
       ),
       NavButton(
         text: "Twitter",
-        onPressed: () {
-          //html.window.open("https://twitter.com/imthepk", "Twitter");
-        },
+        onPressed: () {},
         color: Colors.blue,
       ),
       NavButton(
         text: "Facebook",
-        onPressed: () {
-          //html.window.open("https://facebook.com/vickysingh", "Fb");
-        },
+        onPressed: () {},
         color: Colors.blue,
       ),
     ];
